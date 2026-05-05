@@ -1,0 +1,70 @@
+{
+  "app": {
+    "titleBar": {
+      "mainMenu": "Menu principal",
+      "menu": {
+        "file": "Arquivo",
+        "edit": "Editar",
+        "selection": "Seleção",
+        "view": "Visualizar",
+        "terminal": "Terminal",
+        "help": "Ajuda"
+      }
+    },
+    "activity-bar": {
+      "explorer": "Explorador",
+      "search": "Pesquisar",
+      "git": "Controle de código-fonte",
+      "runAndDebug": "Executar e depurar",
+      "ai": "IA",
+      "settings": "Configurações"
+    },
+    "actions": {
+      "newFile": "Novo arquivo",
+      "openFile": "Abrir arquivo",
+      "openFolder": "Abrir pasta",
+      "openProject": "Abrir projeto",
+      "newFolder": "Nova pasta",
+      "saveFile": "Salvar arquivo"
+    },
+    "status": {
+      "noFile": "Nenhum arquivo aberto.",
+      "newFile": "Novo arquivo criado em memória.",
+      "openingFile": "Abrindo arquivo...",
+      "openingFolder": "Abrindo pasta...",
+      "openCanceled": "Abertura cancelada.",
+      "openFolderFirst": "Abra uma pasta do projeto primeiro.",
+      "fileOpened": "Arquivo aberto: {{path}}",
+      "folderOpened": "Pasta aberta: {{path}}",
+      "creatingFolder": "Criando pasta...",
+      "folderCreated": "Pasta criada: {{path}}",
+      "savingFile": "Salvando arquivo...",
+      "saveCanceled": "Salvamento cancelado.",
+      "fileSaved": "Arquivo salvo: {{path}}",
+      "openFileError": "Erro ao abrir arquivo: {{error}}",
+      "openFolderError": "Erro ao abrir pasta: {{error}}",
+      "createFolderError": "Erro ao criar pasta: {{error}}",
+      "saveFileError": "Erro ao salvar arquivo: {{error}}"
+    },
+    "fileExplorer": {
+      "title": "Explorer",
+      "emptyTree": "Abra uma pasta para navegar pelos arquivos do projeto.",
+      "environment": "Ambiente Laravel",
+      "unsavedChanges": "Alterações não salvas",
+      "noActiveFile": "Nenhum arquivo aberto",
+      "closeTab": "Fechar {{name}}"
+    },
+    "welcome": {
+      "title": "Nenhum arquivo aberto",
+      "message": "Crie um novo arquivo ou abra um arquivo existente para começar a editar na IDE.",
+      "newAction": "Novo arquivo",
+      "shortcut": "Ctrl + N",
+      "with": "com",
+      "or": "ou",
+      "newMenuPath": "Arquivos -> Novo",
+      "openAction": "Abrir arquivo",
+      "openShortcut": "Ctrl + O",
+      "openMenuPath": "Arquivos -> Abrir"
+    }
+  }
+}

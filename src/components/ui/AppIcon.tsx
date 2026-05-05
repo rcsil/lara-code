@@ -1,0 +1,12 @@
+type AppIconProps = {
+	className?: string;
+};
+
+export default function AppIcon({ className = "h-8 w-8" }: AppIconProps) {
+	return (
+		<svg className={className} viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<rect width="32" height="32" rx="8" fill="#FF2D20"/>
+			<path d="M9 23V9H13L19 17.5V9H23V23H19L13 14.5V23H9Z" fill="#FFFFFF"/>
+		</svg>
+	);
+}

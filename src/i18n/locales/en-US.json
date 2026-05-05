@@ -1,0 +1,70 @@
+{
+  "app": {
+    "titleBar": {
+      "mainMenu": "Main menu",
+      "menu": {
+        "file": "File",
+        "edit": "Edit",
+        "selection": "Selection",
+        "view": "View",
+        "terminal": "Terminal",
+        "help": "Help"
+      }
+    },
+    "activity-bar": {
+      "explorer": "Explorer",
+      "search": "Search",
+      "git": "Source Control",
+      "runAndDebug": "Run and Debug",
+      "ai": "AI",
+      "settings": "Settings"
+    },
+    "actions": {
+      "newFile": "New file",
+      "openFile": "Open file",
+      "openFolder": "Open folder",
+      "openProject": "Open project",
+      "newFolder": "New folder",
+      "saveFile": "Save file"
+    },
+    "status": {
+      "noFile": "No file open.",
+      "newFile": "New file created in memory.",
+      "openingFile": "Opening file...",
+      "openingFolder": "Opening folder...",
+      "openCanceled": "Open canceled.",
+      "openFolderFirst": "Open a project folder first.",
+      "fileOpened": "File opened: {{path}}",
+      "folderOpened": "Folder opened: {{path}}",
+      "creatingFolder": "Creating folder...",
+      "folderCreated": "Folder created: {{path}}",
+      "savingFile": "Saving file...",
+      "saveCanceled": "Save canceled.",
+      "fileSaved": "File saved: {{path}}",
+      "openFileError": "Error opening file: {{error}}",
+      "openFolderError": "Error opening folder: {{error}}",
+      "createFolderError": "Error creating folder: {{error}}",
+      "saveFileError": "Error saving file: {{error}}"
+    },
+    "fileExplorer": {
+      "title": "Explorer",
+      "emptyTree": "Open a folder to browse the project files.",
+      "environment": "Laravel environment",
+      "unsavedChanges": "Unsaved changes",
+      "noActiveFile": "No file open",
+      "closeTab": "Close {{name}}"
+    },
+    "welcome": {
+      "title": "No file open",
+      "message": "Create a new file or open an existing file to start editing in the IDE.",
+      "newAction": "New file",
+      "shortcut": "Ctrl + N",
+      "with": "with",
+      "or": "or",
+      "newMenuPath": "File -> New",
+      "openAction": "Open file",
+      "openShortcut": "Ctrl + O",
+      "openMenuPath": "File -> Open"
+    }
+  }
+}
